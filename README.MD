@@ -1,9 +1,16 @@
 # Генератор нажатий клавиш по тексту 
 Для переноса текста на RDP, где отключен буфер обмена.
 
+[![Screenshot](img.png)]()
+
 # Требования
+__Сборка__
 1. ОС - Windows
 2. Python 3.11
+
+__Запуск исполняемого файла__
+1. ОС - Windows
+
 
 ## Сборка
 1. Установить зависимости
@@ -28,7 +35,6 @@ pyinstaller main.spec
 будет печататься текст, до окончания времени таймаута. Например, выбрать блокнот в RDP, куда запрещено копировать текст, т.к. отключен буфер обмена.
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ## License
 
 MIT
